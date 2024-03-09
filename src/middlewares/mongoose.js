@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoDBURL = process.env.mongoDBURL;
-
+                //Input your  mongo db address
 mongoose.connect('mongodb://localhost:27017/Ecommerce');
 
 const db = mongoose.connection;
